@@ -27,19 +27,6 @@ const autoLogin = computed({
 const nip07exists = true;
 </script>
 
-<template>
-  <div class="p-index-auto-login" :style="(!nip07exists) ? { display: 'none' } : {}">
-    <h2 class="p-index-auto-login__head">自動ログイン</h2>
-    <div class="p-index-auto-login__body">
-      <label class="p-index-auto-login-cb" for="auto-login">
-        <input class="p-index-auto-login-cb__input" type="checkbox" id="auto-login" v-model="autoLogin" />
-        <span class="p-index-auto-login-cb__dummy"></span>
-        <span class="p-index-auto-login-cb__text-label">次回から自動ログインする</span>
-      </label>
-    </div>
-  </div>
-</template>
-
 <style scoped lang="scss">
 .p-index-auto-login {
   background: rgba(0, 0, 0, 0.6);
