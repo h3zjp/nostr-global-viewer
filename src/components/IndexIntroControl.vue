@@ -15,12 +15,6 @@ const props = defineProps({
 const nip07exists = true;
 </script>
 <template>
-  <div class="p-index-signin" v-if="!props.isLogined" :style="(!nip07exists) ? { display: 'none' } : {}">
-    <h2 class="p-index-signin__head">この画面からつぶやく</h2>
-    <div class="p-index-signin__body">
-      <input class="p-index-signin__btn" type="button" value="NIP-07でログイン" v-on:click="(_$event) => props.login()" />
-    </div>
-  </div>
   <div class="p-index-intro" v-if="!props.isLogined">
     <h2 class="p-index-intro__head"><span>はじめに</span></h2>
     <p class="p-index-intro__text">Nostr を始めてみたくなった方は</p>
@@ -28,12 +22,12 @@ const nip07exists = true;
       <a href="https://welcome.nostr-jp.org/" rel="noopener" target="_blank" class="p-index-intro__btn">Welcome to
         Nostr</a>
     </p>
-    <p class="p-index-intro__text">をはじめに読んでみてください。<br />また、ちょっと詳しいことが気になった方は</p>
+    <p class="p-index-intro__text">をはじめに読んでみて下さい。<br />また、ちょっと詳しいことが気になった方は</p>
     <p class="p-index-intro__text">
       <a href="https://scrapbox.io/nostr/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AENostr%E3%80%90%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E3%80%91"
         rel="noopener" target="_blank" class="p-index-intro__btn">はじめてのNostr【はじめての方はこちら】</a>
     </p>
-    <p class="p-index-intro__text">などを起点に調べてる見ると面白いと思います。</p>
+    <p class="p-index-intro__text">などを起点に調べてみると面白いと思います。</p>
     <h2 class="p-index-intro__head"><span>このリレーについて</span></h2>
     <p class="p-index-intro__text">日本向けリレーとしてこのページの裏側にある
       <code>wss://relay-jp.nostr.wirednet.jp</code>
@@ -49,9 +43,15 @@ const nip07exists = true;
       <a href="https://soundeffect-lab.info/" target="_blank" class="p-index-intro__text-link">効果音ラボ</a>
       の効果音素材を利用しています。
     </p>
-    <p class="p-index-intro__text">なお、私が管理する Nostr リレーの利用規約は<br>
-      <a href="https://relay.nostr.wirednet.jp/index.html" class="p-index-intro__text-link"
-        target="_blank">relay.nostr.wirednet.jp</a><br>に掲示してあります。
+    <h2 class="p-index-intro__head">このリレーについて</h2>
+    <p class="p-index-intro__text">こちらのリレーは、日本国内からのみアクセスが可能なリレーとなります。(一部クラウド･VPN系ベンダー ASN 制限有)<br />
+    </p>
+    <p class="p-index-intro__text">このリレー宛に呟くと、廃人ランキングに自動参加されます。<br />
+      ランキングはこちらから：<a href="https://nostr-ranking.h3z.jp/" target="_blank" rel="noopener">のす廃ランキング</a>
+    </p>
+    <p class="p-index-intro__text">
+      サーバーについて詳しくは、<a href="https://hm-nrm.h3z.jp/apps-server/nostr.php" class="p-index-intro__text-link"
+        target="_blank" rel="noopener">https://hm-nrm.h3z.jp/apps-server/nostr.php</a> をご覧下さい。
     </p>
   </div>
 </template>

@@ -1,5 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Koruri";
+  src: local('Koruri-Light'),
+  url('https://media.h3z.jp/fonts/Koruri-Light.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/Koruri-Light.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/Koruri-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Koruri";
+  src: local('Koruri-Regular'),
+  url('https://media.h3z.jp/fonts/Koruri-Regular.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/Koruri-Regular.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/Koruri-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Koruri";
+  src: local('Koruri-Semibold'),
+  url('https://media.h3z.jp/fonts/Koruri-Semibold.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/Koruri-Semibold.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/Koruri-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Koruri";
+  src: local('Koruri-Bold'),
+  url('https://media.h3z.jp/fonts/Koruri-Bold.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/Koruri-Bold.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/Koruri-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Koruri";
+  src: local('Koruri-Extrabold'),
+  url('https://media.h3z.jp/fonts/Koruri-Extrabold.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/Koruri-Extrabold.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/Koruri-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  font-family: YakuHanRP, "M PLUS Rounded 1c", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+  font-family: 'Koruri', Sans-Serif;
   line-height: 1.5;
   font-weight: 500;
   font-feature-settings: 'palt';

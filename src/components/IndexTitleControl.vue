@@ -13,23 +13,15 @@ function appVersion() {
 </script>
 <template>
   <h1 class="p-index-title">
-    <a href="/" :class="(Math.floor(new Date().getTime() / 1000) % 10 === 0) ? ['gaming'] : []">
-      <span class="p-index-title__main">Nozokimado</span>
-    </a>
-    <span class="p-index-title__sub">From
-      {{
-        props.feedRelays
-          .map((s) => {
-            return s.replace(/wss?:\/\/(.*)\//, "$1");
-          })
-          .join(",")
-      }}</span>
+    <span class="p-index-title__main">Nostr</span>
+    <span class="p-index-title__main">Feeds</span>
+    <span class="p-index-title__sub">from nostr-relay.h3z.jp <a href="https://github.com/h3zjp/nostr-global-viewer" target="_blank" title="GitHub" rel="nofollow, noopener"><i class="fab fa-github" style="color: #000000;"></i></a></span>
     <span class="p-index-title__sub">Version: {{ appVersion() }}</span>
   </h1>
 </template>
 <style scoped lang="scss">
 .p-index-title {
-  font-family: "Anton", sans-serif;
+  font-family: "Koruri", sans-serif;
   letter-spacing: normal;
   color: #ffffff;
   display: flex;
@@ -61,12 +53,5 @@ function appVersion() {
       width: 100%;
     }
   }
-}
-
-.p-index-title a.gaming {
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(to top right, red 20%, orange 25% 35%, yellow 45% 55%, green 65% 75%, blue 80% 95%, violet 100%);
 }
 </style>
