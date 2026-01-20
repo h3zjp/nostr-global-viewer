@@ -35,8 +35,8 @@ const nip07exists = true;
       ランキングはこちらから：<a href="https://nostr-ranking.h3z.jp/" target="_blank" rel="noopener">のす廃ランキング</a>
     </p>
     <p class="p-index-intro__text">
-      サーバーについて詳しくは、<a href="https://hm-nrm.h3z.jp/apps-server/nostr.php" class="p-index-intro__text-link"
-        target="_blank" rel="noopener">https://hm-nrm.h3z.jp/apps-server/nostr.php</a> をご覧下さい。
+      サーバーについて詳しくは、<a href="https://kagoya-vps.h3z.jp/nostr.php" class="p-index-intro__text-link"
+        target="_blank" rel="noopener">https://kagoya-vps.h3z.jp/nostr.php</a> をご覧下さい。
     </p>
     <h2 class="p-index-intro__head">ライセンス、ソースコードなど</h2>
     <p class="p-index-intro__text">このサイトのソースコードは<a href="https://github.com/h3zjp/nostr-global-viewer"
