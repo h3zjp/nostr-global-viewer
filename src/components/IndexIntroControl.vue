@@ -29,7 +29,7 @@ const nip07exists = true;
     </p>
     <p class="p-index-intro__text">などを起点に調べてみると面白いと思います。</p>
     <h2 class="p-index-intro__head">このリレーについて</h2>
-    <p class="p-index-intro__text">こちらのリレーは、日本国内からのみアクセスが可能なリレーとなります。(一部クラウド･VPN系ベンダー ASN 制限有)<br />
+    <p class="p-index-intro__text">こちらのリレーは、日本国内からのみアクセスが可能なリレーとなります。(一部ホスティング事業者 / VPN系ISP ASN 制限有)<br />
     </p>
     <p class="p-index-intro__text">このリレー宛に呟くと、廃人ランキングに自動参加されます。<br />
       ランキングはこちらから：<a href="https://nostr-ranking.h3z.jp/" target="_blank" rel="noopener">のす廃ランキング</a>
