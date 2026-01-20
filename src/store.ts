@@ -7,10 +7,7 @@ export const feedRelays = ["wss://nostr-relay.h3z.jp/"];
 
 export const profileRelays = [
   "wss://nostr-relay.h3z.jp/",
-  "wss://bostr.nokotaro.work/",
   "wss://ipv6.nostr.wirednet.jp/",
-  "wss://nostr-pub.wellorder.net/",
-  "wss://nostr-relay.nokotaro.com/",
   "wss://nostr.fediverse.jp",
   "wss://nostream.ocha.one/",
   "wss://nrelay-jp.c-stellar.net",
@@ -19,7 +16,6 @@ export const profileRelays = [
   "wss://relay-jp.nostr.wirednet.jp/",
   "wss://relay-jp.shino3.net/",
   "wss://relay.damus.io/",
-  "wss://relay.nostr.band/",
   "wss://relay.nostr.wirednet.jp/",
   "wss://relay.snort.social/",
   "wss://yabu.me/"

@@ -50,11 +50,52 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'BIZUDGothic';
+  src: local('BIZUDGothic-Regular'),
+  url('https://media.h3z.jp/fonts/BIZUDGothic-Regular.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/BIZUDGothic-Regular.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/BIZUDGothic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'BIZUDGothic';
+  src: local('BIZUDGothic-Bold'),
+  url('https://media.h3z.jp/fonts/BIZUDGothic-Bold.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/BIZUDGothic-Bold.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/BIZUDGothic-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'BIZUDPGothic';
+  src: local('BIZUDPGothic-Regular'),
+  url('https://media.h3z.jp/fonts/BIZUDPGothic-Regular.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/BIZUDPGothic-Regular.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/BIZUDPGothic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'BIZUDPGothic';
+  src: local('BIZUDPGothic-Bold'),
+  url('https://media.h3z.jp/fonts/BIZUDPGothic-Bold.woff2') format('woff2'),
+  url('https://media.h3z.jp/fonts/BIZUDPGothic-Bold.woff') format('woff'),
+  url('https://media.h3z.jp/fonts/BIZUDPGothic-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
-  font-family: 'Koruri', Sans-Serif;
+  font-family: 'BIZUDPGothic', Sans-Serif;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 400;
+  font-style: normal;
   font-feature-settings: 'palt';
 
   color-scheme: light dark;
@@ -75,6 +116,14 @@ a {
 
 a:hover {
   color: #535bf2;
+}
+
+a[target="_blank"] {
+  background-image: url('https://media.h3z.jp/img/external-link.webp');
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 12px;
+  display: inline-block;
 }
 
 body {
